@@ -1,1 +1,1 @@
-# NEU-Bin
+# NEU-Bin: Waste classification
