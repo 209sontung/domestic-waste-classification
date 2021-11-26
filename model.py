@@ -63,5 +63,7 @@ while True:
         cv2.putText(img, to_str(conf), org1, font,
                     fontScale, color, thickness, cv2.LINE_AA)
     cv2.imshow('Model1', img)
-    k = cv2.waitKey(1)
+    key = cv2.waitKey(1) & 0xFF
+    if key == ord('q'):
+        break
 
